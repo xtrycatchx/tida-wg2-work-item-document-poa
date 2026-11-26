@@ -22,7 +22,7 @@ PoA: Power of Attorney
 
     \begin{center}\textbf{A human-approved, scoped, time-limited, revocable authorization for AI agents}\end{center}
 
-*Specification, v0.1*
+*Specification, v0.2*
 
 Abstract
 --------
@@ -41,6 +41,11 @@ History
       - Approval
       - Focus Group
       - Working Group
+    * - 0.2
+      - Power of Attorney (PoA)
+      -
+      - TIDA
+      - WG2
     * - 0.1
       - Power of Attorney (PoA)
       -
@@ -117,7 +122,7 @@ please refer to the community's published resources.
 Note
 ----
 
-This document is an early draft (v0.1) prepared for contribution to the Focus Group on
+This document is an early draft (v0.2) prepared for contribution to the Focus Group on
 Trust and Identity for humans and agentic AI (FG-TIDA) for discussion. The model, its
 boundaries, and its relationship to other TIDA work are proposals open to review.
 Copyright statements have not yet been finalised. The contributors intend to gather
