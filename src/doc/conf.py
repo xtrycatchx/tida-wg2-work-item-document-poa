@@ -6,7 +6,7 @@ master_doc = 'index'
 exclude_patterns = []
 pygments_style = 'colorful'
 project = 'PoA'
-release = '0.1'
+release = '0.2'
 html_title = "PoA"
 author = 'FG-TIDA WG2'
 
