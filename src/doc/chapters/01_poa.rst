@@ -44,6 +44,24 @@ Core concepts
     * - **Presentation**
       - The short-lived proof an agent sends with a single action, derived from the long-lived grant.
 
+The PoA flow
+------------
+
+End to end, a guarded action flows like this::
+
+    +----------+      +----------------------------+      +----------------+      +---------------------+      +------------------+
+    |  Person  |      |            PoA             |      |     Agent      |      |  Enforcement point  |      |  API/MCP/Tool/   |
+    | approves | ---> | (scopes, limits, expiry)   | ---> | guarded action | ---> |   Checks the PoA    | ---> |  Other Agent     |
+    +----------+      +----------------------------+      +----------------+      +----------+----------+      +------------------+
+                                                                                             |
+                                                                                       (if invalid)
+                                                                                             |
+                                                                                             v
+                                                                                  +---------------------+
+                                                                                  |       Blocked       |
+                                                                                  |     If invalid      |
+                                                                                  +---------------------+
+
 How it works
 ------------
 
